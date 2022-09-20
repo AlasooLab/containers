@@ -1,0 +1,7 @@
+name: regenie
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::regenie=3.2.1
