@@ -11,7 +11,15 @@ cd regenie
 ```bash
 sudo docker build -t eqtlcatalogue/regenie:v3.2.1 .
 ```
+or
+```bash
+docker build -t eqtlcatalogue/regenie:v3.2.1 .
+```
 
+### If needed, login to Quay.io
+```bash
+docker login quay.io
+```
 
 ### Tag the container for Quay.io
 ```bash
