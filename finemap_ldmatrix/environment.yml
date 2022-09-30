@@ -1,0 +1,12 @@
+name: finemap
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - conda-forge::bgenix=1.1.7
+  - bioconda::plink2=2.00a2.3
+  - conda-forge::libgcc-ng=11.2.0
+  - bioconda::bcftools=1.13
+  - bioconda::tabix=1.11
+  - bioconda::htslib=1.13
