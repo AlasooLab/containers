@@ -16,6 +16,11 @@ or
 docker build -t eqtlcatalogue/regenie:v3.2.1 .
 ```
 
+### Build the container on an M1 Mac
+```bash
+docker buildx build --platform linux/amd64 --push -t quay.io/eqtlcatalogue/glimpse:1.1  .
+```
+
 ### If needed, login to Quay.io
 ```bash
 docker login quay.io
