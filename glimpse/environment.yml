@@ -1,0 +1,8 @@
+name: nf-core-imputation-1.0dev
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::bcftools=1.16
+  - bioconda::tabix=1.11
