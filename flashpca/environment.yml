@@ -1,0 +1,7 @@
+name: nf-core-imputation-1.0dev
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::plink2=2.00a3.7
